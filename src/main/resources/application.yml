@@ -1,0 +1,14 @@
+#-------------------------------------------------------------------------------
+# Properties for actuator
+#-------------------------------------------------------------------------------
+management:
+  endpoints:
+    health:
+      sensitive: false
+  health:
+    db:
+      enabled: true
+      defaults: true
+  endpoint:
+    health:
+      show-details: ALWAYS
